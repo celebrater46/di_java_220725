@@ -24,8 +24,14 @@ public class MyApp {
 
         // 特殊文字 \n（改行）、\t（TAB）
         String msg = "Hello Wo\nrld from var msg again\tagain!";
-        string msg2 = "Hello again.";
+//        string msg2 = "Hello again."; // Error
+        String msg2 = "Hello again."; // Error
         System.out.println(msg);
         System.out.println(msg2);
+
+        // 日本語を含むコンパイルは　
+        // javac -encoding UTF-8 MyApp.java
+        // などと文字コードを指定する必要あり
+        // 実行は java MyApp でよい
     }
 }
