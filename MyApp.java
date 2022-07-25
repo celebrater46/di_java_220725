@@ -24,6 +24,8 @@ public class MyApp {
 
         // 特殊文字 \n（改行）、\t（TAB）
         String msg = "Hello Wo\nrld from var msg again\tagain!";
+        string msg2 = "Hello again.";
         System.out.println(msg);
+        System.out.println(msg2);
     }
 }
